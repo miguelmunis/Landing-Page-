@@ -20,13 +20,13 @@ body{
 }
 
 .capa{
-    width: 100%
+    height: 100%;
 }
 
-img{
+#imgCapa{
     width: 100% ;
-    position: absolute;
-    z-index: -1;
+    position: relative;
+    z-index: -2;
     top: 0;
 }
 
@@ -34,7 +34,8 @@ img{
     width: 45%;
     margin-left: 5em;
     margin-top: 10em;
-    justify-content: center;
+    position: absolute;
+    top: 0;
 
 }
 
@@ -57,13 +58,44 @@ img{
     padding: 3% 20%;
     border: none;
     border-radius: 5px;
-    margin-top: 1EM;
+    margin-top: 1em;
     transition: .2s ease-in-out;
 }
 
 #downloadButton:hover{
     background-color: var(--cor-2);
+    cursor: pointer;
 }
+
+.second{
+    background-color: var(--cor-4);
+    display: flex;
+    justify-content: end;
+    height: 980px;
+}
+
+.text{
+    margin-top: 2em;
+    width: 50%;
+    color: var(--cor-3);
+    font-size: clamp(2em, 1.3rem + 4vw, 7em);
+    font-weight: 300;
+    line-height: 1em;
+}
+
+#explaining{
+    width: 70%;
+    font-size: 1em;   
+    font-weight: 200; 
+    font-size: clamp(.3em, .2rem + 2vw, .4em);
+    line-height: .8em;
+}
+
+#imgMulher{
+    position: static;
+    margin: auto;
+}
+
 
 @media screen and (max-width: 800px) {
     #conteudoCapa{
@@ -75,13 +107,13 @@ img{
 
 @media (min-width: 300px) {
     #title{
-      font-size: 3.5em;
+      font-size: 2.5em;
     }
     #downloadButton{
         padding: 3% 30%;
     } 
     #conteudoCapa{
-        margin-top: 7em;
+        margin-top: 80%;
         width: 80%;
     }
     #sobre{
@@ -92,17 +124,17 @@ img{
 
 @media (min-width: 480px) {
     #title{
-      font-size: 4em;
+      font-size: 3em;
     }
     #downloadButton{
         padding: 3% 40%;
         mask-type: 1em;
     } 
     #conteudoCapa{
-        margin-top: 10em;
+        margin-top: 90%;
     }
     #sobre{
-        font-size: 2em
+        font-size: 1.5em
     }
 }
   
@@ -145,9 +177,10 @@ img{
     #downloadButton{
         padding: 3% 25%;
     } 
-    #conteudoCapa{
+    #conteudoCapa {
         margin-top: 15%;
         width: 40%;
     }
 
 }
+
