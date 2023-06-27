@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --cor-1: #FF6C1A;
+    --cor-2: #A413FF;
+    --cor-3: #111111;
+    --cor-4: #f2f2f2;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: var(--cor-4);   
+}
+
+.capa{
+    width: 100%
+}
+
+img{
+    width: 100% ;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+#conteudoCapa{
+    width: 45%;
+    margin-left: 5em;
+    margin-top: 10em;
+    justify-content: center;
+
+}
+
+#title{
+    font-size: clamp(2em, 1.3rem + 4vw, 7em);
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 1em;
+
+}
+
+#sobre{
+    font-size: max(1.3rem + 1vw, 1em);
+    font-weight: 200;
+}
+
+#downloadButton{
+    background-color: var(--cor-1);
+    color: var(--cor-4);
+    padding: 3% 20%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1EM;
+    transition: .2s ease-in-out;
+}
+
+#downloadButton:hover{
+    background-color: var(--cor-2);
+}
+
+@media screen and (max-width: 800px) {
+    #conteudoCapa{
+        width: 90%;
+        margin-left: 2em;
+        margin-top: 10em;
+    }
+}
+
+@media (min-width: 300px) {
+    #title{
+      font-size: 3.5em;
+    }
+    #downloadButton{
+        padding: 3% 30%;
+    } 
+    #conteudoCapa{
+        margin-top: 7em;
+        width: 80%;
+    }
+    #sobre{
+        font-size: 1.2em
+    }
+}
+
+
+@media (min-width: 480px) {
+    #title{
+      font-size: 4em;
+    }
+    #downloadButton{
+        padding: 3% 40%;
+        mask-type: 1em;
+    } 
+    #conteudoCapa{
+        margin-top: 10em;
+    }
+    #sobre{
+        font-size: 2em
+    }
+}
+  
+  /* 768px - 1024px = telas menores, laptops */
+  @media (min-width: 768px) {
+    #title{
+        font-size: 3em;
+      }
+      #sobre{
+        font-size: 1.5em
+    }
+    #conteudoCapa{
+        margin-top: 8em;
+        width: 40%;
+    }
+  }
+  
+  /* 1024px - 1200px = desktop */
+  @media (min-width: 1024px) {
+    #title{
+        font-size: 4em;
+      }
+      #conteudoCapa{
+        margin-top: 10em;
+        width: 45%;
+    }
+  }
+  
+  /* 1200 e + = telas maiores, tvs */
+  @media (min-width: 1200px) {
+    #title{
+        font-size: clamp(4em, 1.8em + 3vw, 6em);
+    }
+
+    #sobre{
+        width: 90%;
+        margin-top: 1em;
+        font-size: 2em;
+    }
+    #downloadButton{
+        padding: 3% 25%;
+    } 
+    #conteudoCapa{
+        margin-top: 15%;
+        width: 40%;
+    }
+
+}
