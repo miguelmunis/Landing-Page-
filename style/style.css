@@ -28,6 +28,7 @@ body{
     position: relative;
     z-index: -2;
     top: 0;
+
 }
 
 #conteudoCapa{
@@ -93,6 +94,7 @@ body{
 #imgEnd{
     width: 100% ;
     position: relative;
+
 }
 
 #conteudoFinal{
@@ -105,6 +107,7 @@ body{
 #span{
     margin-top: 5em;
 }
+
 
 
 @media screen and (max-width: 800px) {
@@ -124,11 +127,28 @@ body{
         margin-bottom: 1em;
     } 
     #conteudoCapa{
-        margin-top: 80%;
-        width: 80%;
+        margin-top: 90%;
     }
     #sobre{
         font-size: 1.2em
+    }
+    #conteudoFinal{
+        margin-top: -100%;
+        width: 80%;
+    }
+    .conversao{
+    
+        margin-left: -10%;
+    }
+}
+
+@media (min-width: 410px) {
+    #conteudoCapa{
+        margin-top: 110%;
+    }
+
+    #conteudoFinal{
+        margin-top: -80%;    
     }
 }
 
@@ -147,6 +167,12 @@ body{
     #sobre{
         font-size: 1.5em
     }
+    #conteudoFinal{
+        margin-top: -80%;
+        width: 70%;
+        margin-left: 20%;
+     
+    }
 }
   
   /* 768px - 1024px = telas menores, laptops */
@@ -161,6 +187,13 @@ body{
         margin-top: 8em;
         width: 40%;
     }
+
+    #conteudoFinal{
+        margin-top: -40%;
+        width: 40%;
+        margin-left: 15%;
+    }
+
 }
   
   /* 1024px - 1200px = desktop */
@@ -183,15 +216,14 @@ body{
     #sobre{
         width: 100%;
         margin-top: 1em;
-        font-size: 2em;
+        font-size: 1.5em;
         line-height: 1em;
     }
     #downloadButton{
         padding: 3% 25%;
     } 
     #conteudoCapa {
-        margin-top: 10%;
+        margin-top: 15%;
         width: 39%;
     }
-
 }
