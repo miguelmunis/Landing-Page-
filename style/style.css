@@ -19,7 +19,7 @@ body{
     color: var(--cor-4);   
 }
 
-.capa{
+.capa, .conversao{
     height: 100%;
 }
 
@@ -36,7 +36,6 @@ body{
     margin-top: 10em;
     position: absolute;
     top: 0;
-
 }
 
 #title{
@@ -91,9 +90,20 @@ body{
     line-height: .8em;
 }
 
-#imgMulher{
-    position: static;
-    margin: auto;
+#imgEnd{
+    width: 100% ;
+    position: relative;
+}
+
+#conteudoFinal{
+    width: 45%;
+    margin-left: 5em;
+    position: absolute;
+    margin-top: -35%;
+}
+
+#span{
+    margin-top: 5em;
 }
 
 
@@ -111,6 +121,7 @@ body{
     }
     #downloadButton{
         padding: 3% 30%;
+        margin-bottom: 1em;
     } 
     #conteudoCapa{
         margin-top: 80%;
@@ -139,48 +150,48 @@ body{
 }
   
   /* 768px - 1024px = telas menores, laptops */
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     #title{
         font-size: 3em;
-      }
-      #sobre{
+    }
+    #sobre{
         font-size: 1.5em
     }
     #conteudoCapa{
         margin-top: 8em;
         width: 40%;
     }
-  }
+}
   
   /* 1024px - 1200px = desktop */
   @media (min-width: 1024px) {
     #title{
         font-size: 4em;
-      }
-      #conteudoCapa{
+    }
+    #conteudoCapa{
         margin-top: 10em;
         width: 45%;
     }
-  }
+}
   
   /* 1200 e + = telas maiores, tvs */
-  @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     #title{
         font-size: clamp(4em, 1.8em + 3vw, 6em);
     }
 
     #sobre{
-        width: 90%;
+        width: 100%;
         margin-top: 1em;
         font-size: 2em;
+        line-height: 1em;
     }
     #downloadButton{
         padding: 3% 25%;
     } 
     #conteudoCapa {
-        margin-top: 15%;
-        width: 40%;
+        margin-top: 10%;
+        width: 39%;
     }
 
 }
-
