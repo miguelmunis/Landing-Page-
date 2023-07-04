@@ -174,8 +174,9 @@ body{
     #title{
       font-size: 2.5em;
     }
+    
     #downloadButton{
-        padding: 3% 30%;
+        width: 90%;
         margin-bottom: 1em;
     } 
     #conteudoCapa{
@@ -201,7 +202,7 @@ body{
     
     .blocoDados{
         justify-content: center;
-        width: 60%;
+        width: 80%;
     }
 
     #chamadaSection3{
@@ -238,6 +239,10 @@ body{
         font-weight: 200; 
         font-size: clamp(.5em, .2rem + 2vw, .4em);
         line-height: 1em;
+    }
+
+    .dados1, .dados2, .dados3 {
+        width: 100%;
     }
 }
 
