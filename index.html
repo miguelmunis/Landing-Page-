@@ -21,10 +21,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav" >
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"  style="color: #f2f2f2;">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#section1"  style="color: #f2f2f2;">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href=""  style="color: #f2f2f2;">Sobre</a>
+                  <a class="nav-link" href="#section2"  style="color: #f2f2f2;">Sobre</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href=""  style="color: #f2f2f2;">Contato</a>
@@ -36,6 +36,7 @@
 
     <div class="all">
 
+      <section id="section1">
         <div class="capa">
             <picture>
                 <source srcset="./img/monbile01.png" media="(max-width: 769px )" id="imgCapa">
@@ -55,20 +56,26 @@
             </p>
             <input type="button" value="Baixar app" id="downloadButton">     
         </div>
+      </section>
 
+      <section id="section2">
+        
         <div class="second">
-            <img src="./img/mockupApp.png" alt="app" id="imgMockup">
-          
-          <div class="text">
-            <p id="titleSecond">
-              A maneira mais fácil de encontrar um novo amigo
-            </p>
-            
-            <p id="explaining">
-              O Patinhas Felizes é uma ferramenta que facilita a doação e adoção de pets no app P-happy!
-            </p>
-          </div>
+            <img src="/img/mockupApp.png" alt="app" id="imgMockup">
+
+            <div class="text">
+              <p id="titleSecond">
+                A maneira mais fácil de <span style="color: #A413FF;">encontrar um novo amigo</span>
+              </p>
+              
+              <p id="explaining">
+                O Patinhas Felizes é uma ferramenta que facilita a doação e adoção de pets no app P-happy!
+              </p>
+            </div>
         </div>
+      </section>
+
+
         <section class="section3">
           <div class="blocoDados">
             <div class="dados1">
@@ -99,27 +106,27 @@
               </div>
             </div>
           </div> 
-          <img src="./img/SRD.png" alt="" id="SRD">    
-         
+          <img src="/img/SRD.png" alt="" id="SRD">    
         </section>
-        <div class="conversao">
-            <picture>
-              <source srcset="./img/05mobile.png" media="(max-width: 769px )" id="imgCapa">
-              <source srcset="./img/patinhas-felizes_05 (1).png" media="(min-width: 768px )" id="imgCapa">
-              <img src="./img/patinhas-felizes_05 (1).png" alt="main" id="imgCapa">
-            </picture>  
-            <div id="conteudoFinal">
-              <p id="title">
-                  Entre agora para a comunidade Patinhas Felizes
-              </p>
-              <input type="button" value="Baixar agora" id="downloadButton"> <br>
-              <span id="span">
-                Disponível na App store e no Google Play
-              </span>     
-            </div>
-        </div>
 
-  
+        <section class="section4">
+          <div class="conversao">
+              <picture>
+                <source srcset="./img/05mobile.png" media="(max-width: 769px )" id="imgCapa">
+                <source srcset="./img/patinhas-felizes_05 (1).png" media="(min-width: 768px )" id="imgCapa">
+                <img src="./img/patinhas-felizes_05 (1).png" alt="main" id="imgCapa">
+              </picture>  
+              <div id="conteudoFinal">
+                <p id="title">
+                    Entre agora para a comunidade Patinhas Felizes
+                </p>
+                <input type="button" value="Baixar agora" id="downloadButton"> <br>
+                <span id="span">
+                  Disponível na App store e no Google Play
+                </span>     
+              </div>
+          </div>
+        </section>
     </div>
     
 </body>
