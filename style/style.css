@@ -332,7 +332,7 @@ body{
     }
 
     .dados1, .dados2, .dados3 {
-        width: 3in;
+        width: 40%;
         border-radius: 5px;
         background-color: var(--cor-4);
         color: var(--cor-3);
@@ -352,8 +352,8 @@ body{
     }
 
     #SRD{
-        margin-left: 40%;
-        width: 50%;
+        margin-left: 45%;
+        width: 55%;
         margin-top: -600px;    
     }
 
@@ -400,8 +400,8 @@ body{
 
     
     #SRD{
-        margin-left: 40%;
-        width: 60%;
+        margin-left: 45%;
+        width: 55%;
         margin-top: -700px;   
         margin-bottom: 2em; 
     }
@@ -429,11 +429,11 @@ body{
     }
 
     .dados1, .dados2, .dados3 {
-        width: 25%;
+        width: 35%;
         border-radius: 5px;
         background-color: var(--cor-4);
         color: var(--cor-3);
-        margin-top: 2em;
+        margin-top: 3em;
         margin-bottom: 2em;
         min-width: 200px;
     }
@@ -448,10 +448,18 @@ body{
         border: 2px solid var(--cor-4);
     }
 
+    #dados{
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+
+    .conteudoDados{
+        padding: 15px;
+    }
+
     #SRD{
-        margin-left: 40%;
-        width: 60%;
-        margin-top: -700px;   
+        margin-left: 50%;
+        width: 50%;
         margin-bottom: 2em; 
     }
 }
