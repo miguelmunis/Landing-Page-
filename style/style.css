@@ -71,7 +71,11 @@ body{
     background-color: var(--cor-4);
     display: flex;
     justify-content: end;
-    height: 980px;
+   
+}
+
+#imgMockup{
+    width: 50%;
 }
 
 .text{
@@ -147,6 +151,12 @@ body{
     color: var(--cor-4);
 }
 
+#SRD{
+   margin-left: 40%;
+   width: 60%;
+   margin-top: -600px;
+}
+
 
 
 @media screen and (max-width: 800px) {
@@ -179,6 +189,53 @@ body{
     
         margin-left: -10%;
     }
+
+    #SRD{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    .blocoDados{
+        justify-content: center;
+        width: 60%;
+    }
+
+    #chamadaSection3{
+        font-size: 1.2em;
+        color: var(--cor-4);
+    }
+
+    .second{
+        background-color: var(--cor-4);
+        display: flex;
+        justify-content: end;
+       
+    }
+    
+    #imgMockup{
+        width: 90%;
+        margin-top: 80%;
+        left: 100px;
+    }
+    
+    .text{
+        margin-top: 2em;
+        width: 90%;
+        color: var(--cor-3);
+        font-size: clamp(2em, 1.3rem + 4vw, 7em);
+        font-weight: 300;
+        line-height: 1em;
+        position: absolute;
+    }
+
+    #explaining{
+        width: 90%;
+        font-size:2em;   
+        font-weight: 200; 
+        font-size: clamp(.5em, .2rem + 2vw, .4em);
+        line-height: 1em;
+    }
 }
 
 @media (min-width: 410px) {
@@ -188,6 +245,26 @@ body{
 
     #conteudoFinal{
         margin-top: -80%;    
+    }
+
+    .blocoDados{
+        justify-content: center;
+        width: 70%;
+    }
+
+    #chamadaSection3{
+        font-size: 1.3em;
+        color: var(--cor-4);
+    }
+
+    #imgMockup{
+        width: 90%;
+        margin-top: 60%;
+        left: 100px;
+    }
+
+    .dados1, .dados2, .dados3 {
+        width: 100%;
     }
 }
 
@@ -212,8 +289,28 @@ body{
         margin-left: 21%;
      
     }
+
+    .dados1, .dados2, .dados3 {
+        width: 100%;
+    }
+
+    .blocoDados{
+        justify-content: center;
+        width: 60%;
+    }
+
+    .dados3{
+        background-color: transparent;
+        border: 2px solid var(--cor-4);
+    }
+
+    #imgMockup{
+        width: 90%;
+        margin-top: 60%;
+        left: 100px;
+    }
 }
-  
+ 
   /* 768px - 1024px = telas menores, laptops */
 @media (min-width: 768px) {
     #title{
@@ -234,6 +331,55 @@ body{
         
     }
 
+    .dados1, .dados2, .dados3 {
+        width: 3in;
+        border-radius: 5px;
+        background-color: var(--cor-4);
+        color: var(--cor-3);
+        margin-top: 2em;
+        margin-bottom: 2em;
+        min-width: 200px;
+    }
+
+    .blocoDados{
+        justify-content: start;
+        width: 90%;
+    }
+
+    .dados3{
+        background-color: transparent;
+        border: 2px solid var(--cor-4);
+    }
+
+    #SRD{
+        margin-left: 40%;
+        width: 50%;
+        margin-top: -600px;    
+    }
+
+    #imgMockup{
+        width: 60%;
+        margin-top: 0%;
+        margin-right: 40%;
+    }
+    
+    .text{
+        margin-top: 2em;
+        width: 50%;
+        color: var(--cor-3);
+        font-size: clamp(2em, 1.3rem + 4vw, 7em);
+        font-weight: 300;
+        line-height: 1em;
+    }
+
+    #explaining{
+        width: 80%;
+        font-size: 2em;   
+        font-weight: 200; 
+        font-size: clamp(.5em, .2rem + 2vw, .4em);
+        line-height: 1em;
+    }
+
 }
   
   /* 1024px - 1200px = desktop */
@@ -245,6 +391,21 @@ body{
         margin-top: 10em;
         width: 45%;
     }
+
+    #imgMockup{
+        width: 50%;
+        margin-top: 0%;
+        margin-right: 45%;
+    }
+
+    
+    #SRD{
+        margin-left: 40%;
+        width: 60%;
+        margin-top: -700px;   
+        margin-bottom: 2em; 
+    }
+
 }
   
   /* 1200 e + = telas maiores, tvs */
@@ -265,5 +426,32 @@ body{
     #conteudoCapa {
         margin-top: 15%;
         width: 40%;
+    }
+
+    .dados1, .dados2, .dados3 {
+        width: 25%;
+        border-radius: 5px;
+        background-color: var(--cor-4);
+        color: var(--cor-3);
+        margin-top: 2em;
+        margin-bottom: 2em;
+        min-width: 200px;
+    }
+
+    .blocoDados{
+        justify-content: start;
+        width: 90%;
+    }
+
+    .dados3{
+        background-color: transparent;
+        border: 2px solid var(--cor-4);
+    }
+
+    #SRD{
+        margin-left: 40%;
+        width: 60%;
+        margin-top: -700px;   
+        margin-bottom: 2em; 
     }
 }
