@@ -247,12 +247,13 @@ body{
     
     .text{
         margin-top: 2em;
-        width: 90%;
+        width: 80%;
         color: var(--cor-3);
         font-size: clamp(2em, 1.3rem + 4vw, 7em);
         font-weight: 300;
         line-height: 1em;
         position: absolute;
+        margin-right: 8%;
     }
 
     #explaining{
@@ -422,6 +423,7 @@ body{
         font-size: clamp(2em, 1.3rem + 4vw, 7em);
         font-weight: 300;
         line-height: 1em;
+        margin-right: 0;
     }
 
     #explaining{
@@ -484,7 +486,7 @@ body{
     }
     
     .bloco3{
-        margin-left: 30%;
+        margin-left: 20%;
     }
     
     #imgClock{
