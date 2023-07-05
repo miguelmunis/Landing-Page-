@@ -509,7 +509,7 @@ body{
         line-height: 1em;
     }
     #downloadButton{
-        padding: 3% 25%;
+        width: 80%;
     } 
     #conteudoCapa {
         margin-top: 15%;
